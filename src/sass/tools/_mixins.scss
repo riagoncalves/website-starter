@@ -5,7 +5,7 @@
   transform: translateY(0);
 }
 
- @mixin vertical-align {
+@mixin vertical-align {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13,7 +13,7 @@
   transform: translateY(-50%);
 }
 
- @mixin horizontal-align {
+@mixin horizontal-align {
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -27,7 +27,7 @@
   transition: $value;
 }
 
-@mixin trans-delay($value...){
+@mixin trans-delay($value...) {
   -webkit-transition-delay: $value;
   -ms-transition-delay: $value;
   transition-delay: $value;
@@ -39,8 +39,7 @@
   transform: $value;
 }
 
-
-@mixin opacity($value...){
+@mixin opacity($value...) {
   -webkit-opacity: $value;
   -ms-opacity: $value;
   opacity: $value;
